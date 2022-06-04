@@ -1,0 +1,38 @@
+body{
+    background-image: url(img/final-background.png);
+
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.row{
+    max-inline-size: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group-item{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    max-block-size: 65%;
+    opacity:85%;
+}
+
+.resumen{
+    background-color: #0c6cfc ;
+    color:white;
+    padding:1% 2% 1% 2%;
+    border-radius: 1rem;
+    min-width: 30%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.2rem;
+    opacity: 0.95;
+}
