@@ -18,8 +18,8 @@ function agregarGastosAListas() {
     if (usuario.value == '' && pago.value == '') {
         swal({
             title: "¡Faltan datos!",
-            text: "Debés ingresar los datos del gasto para poder continuar.",
-            button: "Ingresar dato",
+            text: "Debés ingresar los datos solicitados para poder continuar.",
+            button: "Ingresar datos",
             icon: "error"
         });
         usuario.onfocus;
