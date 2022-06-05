@@ -1,17 +1,18 @@
 body{
     background-image: url(img/final-background.png);
-
+    
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:103%;
     background-attachment: fixed;
     background-position-x: center;
     background-position-y: bottom;
 }
 
 .row{
+    min-inline-size: 30%;
     max-inline-size: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,8 +20,8 @@ body{
 .list-group-item{
     margin-left: auto;
     margin-right: auto;
-    min-width: 50%;
-    max-block-size: 65%;
+    min-width: 48%;
+    max-block-size: 50%;
     opacity:85%;
 }
 

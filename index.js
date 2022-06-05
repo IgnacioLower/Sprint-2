@@ -11,17 +11,26 @@ function dividirGastos() {
     agregarGastosAListas();
     ultimoAPantalla();
     mostrarPagoIndividualEnHTML();
+    formulario.reset();
 }
 
 function agregarGastosAListas() {
-    if (usuario.value == '') {
+    if (usuario.value == '' && pago.value == '') {
+        swal({
+            title: "¡Faltan datos!",
+            text: "Debés ingresar los datos del gasto para poder continuar.",
+            button: "Ingresar dato",
+            icon: "error"
+        });
+        usuario.onfocus;
+    } else if (usuario.value == '') {
         swal({
             title: "¡Faltan datos!",
             text: "Falta ingresar el nombre de la persona.",
             button: "Ingresar dato",
             icon: "warning"
         });
-        usuario.focus();
+        usuario.autofocus;
     } else if (pago.value == ''){
         swal({
             title: "¡Faltan datos!",
